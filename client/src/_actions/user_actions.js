@@ -5,7 +5,7 @@ import {
     AUTH_USER,
     LOGOUT_USER,
 } from './types';
-import { USER_SERVER } from '../components/Config.js';
+import { USER_SERVER } from '../Config.js';
 
 export function loginUser(dataToSubmit) {
 
